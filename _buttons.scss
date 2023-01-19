@@ -1,0 +1,17 @@
+@mixin buttons{
+    button{
+        width: 160px;
+        height: 43px;
+        border: 0.12rem solid white;
+        background: transparent;
+        color: white;
+        letter-spacing: 2px;
+        transition:background 500ms,color 500ms;
+        z-index: 1;
+        &:hover{
+background: white;
+color: black;
+
+        }
+    }
+}
